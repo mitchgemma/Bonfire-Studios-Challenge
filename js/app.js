@@ -4,7 +4,10 @@ const evenBoxes = document.querySelectorAll('.even')
 const showAll = document.querySelector('.show-all')
 const showOdd = document.querySelector('.show-even')
 const showEven = document.querySelector('.show-odd')
+const home = document.getElementById('home')
+const away = document.getElementById('away')
 
+// Click function to be added to the boxes buttons to decide which action to take
 const clickButton = (e) => {
   // if the target does not have an id, find the element with 'checked' id and remove it
   if (!e.target.id) {
@@ -33,7 +36,23 @@ const clickButton = (e) => {
   }
 }
 
+// Simple function to flip the colors of the nav bar links
+const nav = (e) => {
+  console.log(e.target)
+  if (e.target.id == 'home') {
+    console.log('home')
+    home.style.color = 'rgb(253, 236, 202)'
+    away.style.color = 'white'
+  } else if ((e.target.id = 'away')) {
+    console.log('away')
+    home.style.color = 'white'
+    away.style.color = 'rgb(253, 236, 202)'
+  }
+}
+
 //========EVENT LISTENERS===================================================================================
 showAll.addEventListener('click', clickButton)
 showOdd.addEventListener('click', clickButton)
 showEven.addEventListener('click', clickButton)
+home.addEventListener('click', nav)
+away.addEventListener('click', nav)
