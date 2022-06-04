@@ -97,4 +97,17 @@ header {
   font-weight: 400;
   font-size: 1.65vh;
 }
+
+.btn-group button {
+  color: white;
+  background-color: #646072;
+  padding: 1.7vh 3.4vh;
+  float: left;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-group button:hover {
+  background-color: #484553;
+}
 /*# sourceMappingURL=styles.css.map */
