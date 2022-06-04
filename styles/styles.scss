@@ -36,7 +36,7 @@
     width: 20%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 1.5vh;
+    font-size: 1.75vh;
   }
 
   .nav-logo {
@@ -84,7 +84,14 @@
   float: left;
   cursor: pointer;
   border: none;
+  font-weight: 400;
   &:hover {
     background-color: $darkGray;
   }
+}
+#checked {
+  background-color: $beige;
+  padding: 1.9vh 3.6vh;
+  color: $subtextGray;
+  font-weight: 400;
 }

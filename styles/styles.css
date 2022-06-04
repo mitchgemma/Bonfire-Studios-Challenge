@@ -129,7 +129,7 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 1.5vh;
+  font-size: 1.75vh;
 }
 
 .navbar .nav-logo {
@@ -184,9 +184,17 @@ body {
   float: left;
   cursor: pointer;
   border: none;
+  font-weight: 400;
 }
 
 .btn-group button:hover {
   background-color: #484553;
+}
+
+#checked {
+  background-color: #fdecca;
+  padding: 1.9vh 3.6vh;
+  color: #868392;
+  font-weight: 400;
 }
 /*# sourceMappingURL=styles.css.map */
