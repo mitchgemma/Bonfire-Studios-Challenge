@@ -16,33 +16,30 @@ const clickButton = (e) => {
     e.target.id = 'checked'
   }
   // if user clicks on show even button, displays will be changed accordingly
-  if (e.target.className == 'show-even') {
-    for (let i = 0; i < oddBoxes.length; i++) {
+  for (let i = 0; i < oddBoxes.length; i++) {
+    if (e.target.className == 'show-even') {
       oddBoxes[i].style.display = 'none'
       evenBoxes[i].style.display = 'flex'
     }
     // for show-odd button, even boxes will be hidden
-  } else if (e.target.className == 'show-odd') {
-    for (let i = 0; i < evenBoxes.length; i++) {
+    else if (e.target.className == 'show-odd') {
       evenBoxes[i].style.display = 'none'
       oddBoxes[i].style.display = 'flex'
-    }
-    // when show all is clicked, all displays will be changed back to normal
-  } else if (e.target.className == 'show-all') {
-    for (let i = 0; i < evenBoxes.length; i++) {
+      // when show all is clicked, all displays will be changed back to normal
+    } else if (e.target.className == 'show-all') {
       evenBoxes[i].style.display = 'flex'
       oddBoxes[i].style.display = 'flex'
     }
   }
 }
-
 // Simple function to flip the colors of the nav bar links
 const nav = (e) => {
-  console.log(e.target)
+  // if home is clicked make home beige and away white
   if (e.target.id == 'home') {
     console.log('home')
     home.style.color = 'rgb(253, 236, 202)'
     away.style.color = 'white'
+    // if away is clicked make home white and away beige
   } else if ((e.target.id = 'away')) {
     console.log('away')
     home.style.color = 'white'
