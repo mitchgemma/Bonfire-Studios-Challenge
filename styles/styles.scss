@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
 @import './variables.scss';
+@import './cards';
 
 @mixin center {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-header {
-  margin: 30px;
-  height: 100vh;
 }
 
 .header-container {
