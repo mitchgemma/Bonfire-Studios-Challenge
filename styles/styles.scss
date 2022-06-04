@@ -1,3 +1,23 @@
-body {
-  background-color: aquamarine;
+@import './variables.scss';
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin: 30px;
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  background-image: url('../media/mountain-background_50.jpeg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 50%;
+  width: 100%;
+  height: 35vh;
+  color: $white;
+  background-size: cover;
 }
