@@ -91,7 +91,10 @@ header {
 }
 
 .description {
-  width: 35%;
+  width: 45%;
   text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.65vh;
 }
 /*# sourceMappingURL=styles.css.map */
