@@ -7,7 +7,8 @@ body {
   height: 50vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2% 2%;
   background-image: linear-gradient($cardBg, $white);
   padding: 8vh 0 8vh 0;
 }
@@ -15,8 +16,8 @@ body {
 .card {
   background-color: $white;
   width: 25%;
-  height: 40%;
-  border: 1px solid red;
+  height: 50%;
+  border-radius: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,4 +25,5 @@ body {
   padding: 2vh 0 2vh 0;
   margin-bottom: 2vh;
   text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }

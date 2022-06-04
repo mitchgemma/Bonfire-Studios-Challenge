@@ -11,9 +11,10 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2% 2%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#eff1f5), to(white));
   background-image: linear-gradient(#eff1f5, white);
   padding: 8vh 0 8vh 0;
@@ -22,8 +23,8 @@ body {
 .card {
   background-color: white;
   width: 25%;
-  height: 40%;
-  border: 1px solid red;
+  height: 50%;
+  border-radius: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,6 +41,8 @@ body {
   padding: 2vh 0 2vh 0;
   margin-bottom: 2vh;
   text-align: center;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .header-container {
