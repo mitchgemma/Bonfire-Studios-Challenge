@@ -48,6 +48,18 @@ body {
   transition: all 0.5s ease;
 }
 
+.card h2 {
+  color: #aaaeb6;
+  padding-top: 4vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card h4 {
+  font-family: 'Lato', sans-serif;
+  color: #868392;
+  font-size: 1.5vh;
+}
+
 .card:hover {
   cursor: pointer;
   -webkit-transform: translate(0, -15px);
@@ -61,6 +73,10 @@ body {
 
 .card:hover h2 {
   color: #e3d2bd;
+}
+
+.card:hover h4 {
+  color: #435368;
 }
 
 .card-btn {
