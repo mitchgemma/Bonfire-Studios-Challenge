@@ -79,6 +79,12 @@ body {
   color: #435368;
 }
 
+.odd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .card-btn {
   display: none;
 }

@@ -28,19 +28,19 @@ body {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   position: relative;
   transition: all 0.5s ease;
-
+  
   h2 {
     color: $headerGray;
     padding-top: 4vh;
     font-family: $paragraph;
   }
-
+  
   h4 {
     font-family: 'Lato', sans-serif;
     color: $subtextGray;
     font-size: 1.5vh;
   }
-
+  
   &:hover {
     cursor: pointer;
     transform: translate(0, -15px);
@@ -48,15 +48,20 @@ body {
     .card-btn {
       display: block;
     }
-
+    
     h2 {
       color: $brown;
     }
-
+    
     h4 {
       color: $subtextHover;
     }
   }
+}
+
+
+.odd {
+  display: flex
 }
 
 .card-btn {
