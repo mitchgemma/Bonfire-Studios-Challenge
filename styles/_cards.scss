@@ -11,6 +11,9 @@ body {
   gap: 2% 2%;
   background-image: linear-gradient($cardBg, $white);
   padding: 8vw 0 13vw 0;
+  @include small {
+    height: 30vh;
+  }
 }
 
 .card {

@@ -20,6 +20,12 @@ body {
   padding: 8vw 0 13vw 0;
 }
 
+@media (max-width: 768px) {
+  .cards-container {
+    height: 30vh;
+  }
+}
+
 .card {
   background-color: white;
   width: 24%;
