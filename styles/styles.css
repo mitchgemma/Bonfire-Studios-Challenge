@@ -169,6 +169,7 @@ body {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   font-size: 1.1vw;
+  margin-right: 5%;
 }
 
 @media (max-width: 1023px) {
@@ -185,6 +186,7 @@ body {
 
 .navbar .nav-logo {
   font-size: 1.4vw;
+  margin-left: 5%;
 }
 
 @media (max-width: 1023px) {

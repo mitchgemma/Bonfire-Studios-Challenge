@@ -37,6 +37,7 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 1.1vw;
+    margin-right: 5%;
 
     @include medium {
       font-size: 1.34vw;
@@ -48,6 +49,7 @@
 
   .nav-logo {
     font-size: 1.4vw;
+    margin-left: 5%;
 
     @include medium {
       font-size: 1.9vw;
