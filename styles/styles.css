@@ -22,7 +22,7 @@ body {
 
 .card {
   background-color: white;
-  width: 26%;
+  width: 24%;
   height: 15vw;
   border-radius: 2%;
   display: -webkit-box;
@@ -88,8 +88,8 @@ body {
 
 .card:hover {
   cursor: pointer;
-  -webkit-transform: translate(0, -15px);
-          transform: translate(0, -15px);
+  -webkit-transform: translate(0, -10px);
+          transform: translate(0, -10px);
   border-top: 3px solid red;
 }
 
@@ -242,7 +242,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1vw;
-  margin-top: 3%;
+  margin-bottom: 4%;
 }
 
 @media (max-width: 1023px) {
@@ -251,13 +251,19 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .description {
+    font-size: 1.9vw;
+  }
+}
+
 .btn-group button {
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   margin-top: 8%;
-  margin-bottom: -5%;
+  margin-bottom: -5.5%;
   color: white;
   background-color: #646072;
-  padding: 1.1vw 2.7vw;
+  padding: 1vw 3.2vw;
   float: left;
   cursor: pointer;
   border: none;
@@ -283,7 +289,7 @@ body {
 
 #checked {
   background-color: #fdecca;
-  padding: 1.2vw 2.7vw;
+  padding: 1.2vw 3.2vw;
   color: #868392;
   font-weight: 900;
 }

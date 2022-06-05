@@ -97,20 +97,24 @@
   font-family: $paragraph;
   font-weight: 400;
   font-size: 1vw;
-  margin-top: 3%;
+  margin-bottom: 4%;
 
   @include medium {
     font-size: 1.6vw;
   }
+
+  @include small {
+    font-size: 1.9vw;
+  }
 }
 
 .btn-group button {
-  font-size: 0.7vw;
+  font-size: 0.8vw;
   margin-top: 8%;
-  margin-bottom: -5%;
+  margin-bottom: -5.5%;
   color: $white;
   background-color: $gray;
-  padding: 1.1vw 2.7vw;
+  padding: 1vw 3.2vw;
   float: left;
   cursor: pointer;
   border: none;
@@ -130,7 +134,7 @@
 }
 #checked {
   background-color: $beige;
-  padding: 1.2vw 2.7vw;
+  padding: 1.2vw 3.2vw;
   color: $subtextGray;
   font-weight: 900;
 
