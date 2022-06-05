@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
 body {
-  margin: 4% 4% 4% 4%;
+  margin: -1% -1% -1% -1%;
 }
 
 .cards-container {
@@ -18,6 +18,12 @@ body {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#eff1f5), to(white));
   background-image: linear-gradient(#eff1f5, white);
   padding: 8vw 0 13vw 0;
+}
+
+@media (max-width: 1023px) {
+  .cards-container {
+    height: 35vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -276,6 +282,8 @@ body {
   cursor: pointer;
   border: none;
   font-weight: 300;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
 }
 
 .btn-group button:hover {
@@ -300,6 +308,9 @@ body {
   padding: 1.2vw 3.2vw;
   color: #868392;
   font-weight: 900;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 0px;
+  margin-top: 7.5%;
 }
 
 @media (max-width: 1023px) {
