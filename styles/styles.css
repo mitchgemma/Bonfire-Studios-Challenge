@@ -112,7 +112,7 @@ body {
   background-position-x: center;
   background-position-y: 50%;
   width: 100%;
-  height: 40vh;
+  height: 35%;
   color: white;
   background-size: cover;
 }
@@ -142,11 +142,11 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 1.75vh;
+  font-size: 1.1vw;
 }
 
 .navbar .nav-logo {
-  font-size: 2.5vh;
+  font-size: 1.4vw;
 }
 
 .navbar .nav-home-away {
@@ -182,7 +182,7 @@ body {
 
 .header-title {
   font-family: "Gelasio", serif;
-  font-size: 5vh;
+  font-size: 2.6vw;
   margin-bottom: 0;
 }
 
@@ -191,14 +191,16 @@ body {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.65vh;
+  font-size: 1vw;
+  margin-top: 3%;
 }
 
 .btn-group button {
-  margin-top: 10%;
+  margin-top: 8%;
+  margin-bottom: -5%;
   color: white;
   background-color: #646072;
-  padding: 1.7vh 3.4vh;
+  padding: 1.1vw 2.7vw;
   float: left;
   cursor: pointer;
   border: none;
@@ -211,7 +213,7 @@ body {
 
 #checked {
   background-color: #fdecca;
-  padding: 1.9vh 3.6vh;
+  padding: 1.2vw 2.7vw;
   color: #868392;
   font-weight: 400;
 }
