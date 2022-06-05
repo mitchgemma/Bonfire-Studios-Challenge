@@ -15,35 +15,42 @@ body {
 
 .card {
   background-color: $white;
-  width: 25%;
-  height: 50%;
+  width: 26%;
+  height: 260px;
   border-radius: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   padding: 2vh 0 2vh 0;
-  margin-bottom: 2vh;
+  margin-bottom: 1.1%;
   text-align: center;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   position: relative;
   transition: all 0.5s ease;
 
   @include medium {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 20vh;
+  }
+
+  @include small {
+    width: 35%;
+    height: 10vh;
+    margin-top: -5%;
   }
 
   h2 {
     color: $headerGray;
-    padding-top: 4vh;
+    padding-top: 10%;
     font-family: $paragraph;
+    font-size: 1.8vw;
   }
 
   h4 {
     font-family: 'Lato', sans-serif;
     color: $subtextGray;
-    font-size: 1.5vh;
+    font-size: 0.9vw;
   }
 
   &:hover {

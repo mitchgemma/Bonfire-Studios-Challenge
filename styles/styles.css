@@ -22,8 +22,8 @@ body {
 
 .card {
   background-color: white;
-  width: 25%;
-  height: 50%;
+  width: 26%;
+  height: 260px;
   border-radius: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,7 +39,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 2vh 0 2vh 0;
-  margin-bottom: 2vh;
+  margin-bottom: 1.1%;
   text-align: center;
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -50,21 +50,30 @@ body {
 
 @media (max-width: 1023px) {
   .card {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 20vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 35%;
+    height: 10vh;
+    margin-top: -5%;
   }
 }
 
 .card h2 {
   color: #aaaeb6;
-  padding-top: 4vh;
+  padding-top: 10%;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.8vw;
 }
 
 .card h4 {
   font-family: 'Lato', sans-serif;
   color: #868392;
-  font-size: 1.5vh;
+  font-size: 0.9vw;
 }
 
 .card:hover {
@@ -186,6 +195,12 @@ body {
   margin-bottom: 0;
 }
 
+@media (max-width: 1023px) {
+  .header-title {
+    font-size: 3vw;
+  }
+}
+
 .description {
   width: 45%;
   text-align: center;
@@ -193,6 +208,12 @@ body {
   font-weight: 400;
   font-size: 1vw;
   margin-top: 3%;
+}
+
+@media (max-width: 1023px) {
+  .description {
+    font-size: 1.6vw;
+  }
 }
 
 .btn-group button {

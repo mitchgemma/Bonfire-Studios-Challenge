@@ -71,6 +71,10 @@
   font-family: $title;
   font-size: 2.6vw;
   margin-bottom: 0;
+
+  @include medium {
+    font-size: 3vw;
+  }
 }
 
 .description {
@@ -80,6 +84,10 @@
   font-weight: 400;
   font-size: 1vw;
   margin-top: 3%;
+
+  @include medium {
+    font-size: 1.6vw;
+  }
 }
 
 .btn-group button {
