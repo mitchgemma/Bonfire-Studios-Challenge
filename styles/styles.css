@@ -17,13 +17,13 @@ body {
   gap: 2% 2%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#eff1f5), to(white));
   background-image: linear-gradient(#eff1f5, white);
-  padding: 8vh 0 13vh 0;
+  padding: 8vw 0 13vw 0;
 }
 
 .card {
   background-color: white;
   width: 26%;
-  height: 260px;
+  height: 15vw;
   border-radius: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,15 +51,13 @@ body {
 @media (max-width: 1023px) {
   .card {
     width: 35%;
-    height: 20vh;
   }
 }
 
 @media (max-width: 768px) {
   .card {
     width: 35%;
-    height: 10vh;
-    margin-top: -5%;
+    height: 12vh;
   }
 }
 
@@ -70,10 +68,22 @@ body {
   font-size: 1.8vw;
 }
 
+@media (max-width: 768px) {
+  .card h2 {
+    font-size: 2.2vw;
+  }
+}
+
 .card h4 {
   font-family: 'Lato', sans-serif;
   color: #868392;
   font-size: 0.9vw;
+}
+
+@media (max-width: 768px) {
+  .card h4 {
+    font-size: 1.4vw;
+  }
 }
 
 .card:hover {
@@ -103,6 +113,7 @@ body {
 
 .card-btn {
   display: none;
+  margin-bottom: 3%;
 }
 
 .header-container {
@@ -154,8 +165,32 @@ body {
   font-size: 1.1vw;
 }
 
+@media (max-width: 1023px) {
+  .navbar .nav-links {
+    font-size: 1.34vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-links {
+    font-size: 1.7vw;
+  }
+}
+
 .navbar .nav-logo {
   font-size: 1.4vw;
+}
+
+@media (max-width: 1023px) {
+  .navbar .nav-logo {
+    font-size: 1.9vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .nav-logo {
+    font-size: 2.3vw;
+  }
 }
 
 .navbar .nav-home-away {
@@ -217,6 +252,7 @@ body {
 }
 
 .btn-group button {
+  font-size: 0.7vw;
   margin-top: 8%;
   margin-bottom: -5%;
   color: white;
@@ -225,17 +261,43 @@ body {
   float: left;
   cursor: pointer;
   border: none;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .btn-group button:hover {
   background-color: #484553;
 }
 
+@media (max-width: 1023px) {
+  .btn-group button {
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-group button {
+    padding: 1.4vw 3vw;
+    font-size: 1.8vw;
+  }
+}
+
 #checked {
   background-color: #fdecca;
   padding: 1.2vw 2.7vw;
   color: #868392;
-  font-weight: 400;
+  font-weight: 900;
+}
+
+@media (max-width: 1023px) {
+  #checked {
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #checked {
+    padding: 1.6vw 3vw;
+    font-size: 1.8vw;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

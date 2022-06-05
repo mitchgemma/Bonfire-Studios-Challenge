@@ -10,13 +10,13 @@ body {
   justify-content: center;
   gap: 2% 2%;
   background-image: linear-gradient($cardBg, $white);
-  padding: 8vh 0 13vh 0;
+  padding: 8vw 0 13vw 0;
 }
 
 .card {
   background-color: $white;
   width: 26%;
-  height: 260px;
+  height: 15vw;
   border-radius: 2%;
   display: flex;
   justify-content: space-between;
@@ -31,13 +31,11 @@ body {
 
   @include medium {
     width: 35%;
-    height: 20vh;
   }
 
   @include small {
     width: 35%;
-    height: 10vh;
-    margin-top: -5%;
+    height: 12vh;
   }
 
   h2 {
@@ -45,12 +43,20 @@ body {
     padding-top: 10%;
     font-family: $paragraph;
     font-size: 1.8vw;
+
+    @include small {
+      font-size: 2.2vw;
+    }
   }
 
   h4 {
     font-family: 'Lato', sans-serif;
     color: $subtextGray;
     font-size: 0.9vw;
+
+    @include small {
+      font-size: 1.4vw;
+    }
   }
 
   &:hover {
@@ -77,4 +83,5 @@ body {
 
 .card-btn {
   display: none;
+  margin-bottom: 3%;
 }

@@ -37,10 +37,24 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 1.1vw;
+
+    @include medium {
+      font-size: 1.34vw;
+    }
+    @include small {
+      font-size: 1.7vw;
+    }
   }
 
   .nav-logo {
     font-size: 1.4vw;
+
+    @include medium {
+      font-size: 1.9vw;
+    }
+    @include small {
+      font-size: 2.3vw;
+    }
   }
 
   .nav-home-away {
@@ -91,6 +105,7 @@
 }
 
 .btn-group button {
+  font-size: 0.7vw;
   margin-top: 8%;
   margin-bottom: -5%;
   color: $white;
@@ -99,14 +114,32 @@
   float: left;
   cursor: pointer;
   border: none;
-  font-weight: 400;
+  font-weight: 300;
   &:hover {
     background-color: $darkGray;
+  }
+
+  @include medium {
+    font-size: 1vw;
+  }
+
+  @include small {
+    padding: 1.4vw 3vw;
+    font-size: 1.8vw;
   }
 }
 #checked {
   background-color: $beige;
   padding: 1.2vw 2.7vw;
   color: $subtextGray;
-  font-weight: 400;
+  font-weight: 900;
+
+  @include medium {
+    font-size: 1vw;
+  }
+
+  @include small {
+    padding: 1.6vw 3vw;
+    font-size: 1.8vw;
+  }
 }
