@@ -36,12 +36,10 @@ const clickButton = (e) => {
 const nav = (e) => {
   // if home is clicked make home beige and away white
   if (e.target.id == 'home') {
-    console.log('home')
     home.style.color = 'rgb(253, 236, 202)'
     away.style.color = 'white'
     // if away is clicked make home white and away beige
   } else if ((e.target.id = 'away')) {
-    console.log('away')
     home.style.color = 'white'
     away.style.color = 'rgb(253, 236, 202)'
   }
