@@ -1,11 +1,14 @@
 //========DOM ELEMENTS======================================================================================
+const buttons = document.querySelectorAll('.btn-group')
 const oddBoxes = document.querySelectorAll('.odd')
 const evenBoxes = document.querySelectorAll('.even')
-const showAll = document.querySelector('.show-all')
-const showOdd = document.querySelector('.show-even')
-const showEven = document.querySelector('.show-odd')
-const home = document.getElementById('home')
-const away = document.getElementById('away')
+const homeAway = document.querySelectorAll('.nav-links')
+
+// iterate through buttons to add clickButton event listener to each button
+const arrayButtons = Array.from(buttons[0].children)
+const navArray = Array.from(homeAway[0].children)
+
+//========FUNCTIONS======================================================================================
 
 // Click function to be added to the boxes buttons to decide which action to take
 const clickButton = (e) => {
@@ -46,8 +49,9 @@ const nav = (e) => {
 }
 
 //========EVENT LISTENERS===================================================================================
-showAll.addEventListener('click', clickButton)
-showOdd.addEventListener('click', clickButton)
-showEven.addEventListener('click', clickButton)
-home.addEventListener('click', nav)
-away.addEventListener('click', nav)
+arrayButtons.forEach((btn) => {
+  btn.addEventListener('click', clickButton)
+})
+navArray.forEach((link) => {
+  link.addEventListener('click', nav)
+})
