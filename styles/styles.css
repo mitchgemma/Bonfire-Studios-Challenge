@@ -188,6 +188,7 @@ body {
 }
 
 .btn-group button {
+  margin-top: 11%;
   color: white;
   background-color: #646072;
   padding: 1.7vh 3.4vh;
