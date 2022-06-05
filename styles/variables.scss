@@ -13,4 +13,23 @@ $subtextHover: rgb(67, 83, 104);
 $nav: 'Raleway', sans-serif;
 $title: 'Gelasio', serif;
 $paragraph: 'Open Sans', sans-serif;
-$subtext: 'Lato', sans-serif; ;
+$subtext: 'Lato', sans-serif;
+
+// ========MEDIA QUERIES==================================================================
+@mixin small {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin wide {
+  @media (max-width: 1750px) {
+    @content;
+  }
+}

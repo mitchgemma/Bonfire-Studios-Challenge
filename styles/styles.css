@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
 body {
-  margin: 7vh 7vh 7vh 7vh;
+  margin: 4% 4% 4% 4%;
 }
 
 .cards-container {
@@ -46,6 +46,13 @@ body {
   position: relative;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+@media (max-width: 1023px) {
+  .card {
+    width: 40%;
+    height: 40%;
+  }
 }
 
 .card h2 {
@@ -188,7 +195,7 @@ body {
 }
 
 .btn-group button {
-  margin-top: 11%;
+  margin-top: 10%;
   color: white;
   background-color: #646072;
   padding: 1.7vh 3.4vh;
