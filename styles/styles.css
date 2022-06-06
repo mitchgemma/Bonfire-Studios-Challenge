@@ -320,8 +320,8 @@ html {
 
 @media (max-width: 768px) {
   .btn-group button {
-    padding: 3.3vw 5vw;
-    font-size: 2.5vw;
+    padding: 15px 20px;
+    font-size: 15px;
   }
 }
 
@@ -343,8 +343,8 @@ html {
 
 @media (max-width: 768px) {
   #checked {
-    padding: 3.6vw 5vw;
-    font-size: 2.5vw;
+    padding: 17px 20px;
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
