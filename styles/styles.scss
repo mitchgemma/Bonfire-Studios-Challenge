@@ -22,7 +22,7 @@
   background-size: cover;
 
   @include small {
-    height: 700px;
+    height: 650px;
     justify-content: space-between;
   }
 }
@@ -107,7 +107,7 @@
 
   @include small {
     position: relative;
-    font-size: 44px;
+    font-size: 40px;
     margin-top: 10%;
   }
 }
@@ -118,7 +118,6 @@
   font-family: $paragraph;
   font-weight: 400;
   font-size: 1vw;
-  // margin-bottom: 4%;
 
   @include medium {
     font-size: 1.6vw;
