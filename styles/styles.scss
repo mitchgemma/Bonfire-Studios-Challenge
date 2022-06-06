@@ -97,8 +97,8 @@
   }
 
   @include small {
-    font-size: 6vw;
-    margin-top: 20%;
+    font-size: 35px;
+    margin-top: 10%;
   }
 }
 
@@ -115,9 +115,10 @@
   }
 
   @include small {
-    font-size: 4vw;
+    font-size: 20px;
     width: 66%;
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-bottom: 15%;
   }
 }
 
