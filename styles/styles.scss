@@ -70,6 +70,10 @@
     &:hover {
       color: $beige;
     }
+
+    @include small {
+      padding-right: 25%;
+    }
   }
 
   #design {

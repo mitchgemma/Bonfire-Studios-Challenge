@@ -231,6 +231,12 @@ html {
   color: #fdecca;
 }
 
+@media (max-width: 768px) {
+  .navbar .nav-home-away {
+    padding-right: 25%;
+  }
+}
+
 .navbar #design {
   color: #fdecca;
   font-weight: 100;
