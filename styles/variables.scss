@@ -16,6 +16,7 @@ $paragraph: 'Open Sans', sans-serif;
 $subtext: 'Lato', sans-serif;
 
 // ========MEDIA QUERIES==================================================================
+
 @mixin small {
   @media (max-width: 768px) {
     @content;
