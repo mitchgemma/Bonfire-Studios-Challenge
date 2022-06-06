@@ -44,10 +44,6 @@ html {
   position: relative;
   transition: all 0.5s ease;
 
-  @include medium {
-    width: 35%;
-  }
-
   @include small {
     width: 75%;
     height: 50vw;

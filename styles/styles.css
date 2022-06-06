@@ -67,12 +67,6 @@ html {
   transition: all 0.5s ease;
 }
 
-@media (max-width: 1023px) {
-  .card {
-    width: 35%;
-  }
-}
-
 @media (max-width: 768px) {
   .card {
     width: 75%;
@@ -306,7 +300,7 @@ html {
 @media (max-width: 768px) {
   .description {
     font-size: 19px;
-    width: 66%;
+    width: 80%;
     margin-top: 8%;
   }
 }
