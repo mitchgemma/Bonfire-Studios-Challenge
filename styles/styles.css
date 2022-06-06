@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
 body {
   margin: -1% -1% -1% -1%;
+  overflow-x: hidden;
 }
 
 html {
@@ -33,6 +34,7 @@ html {
 @media (max-width: 768px) {
   .cards-container {
     height: 30vh;
+    width: 100%;
   }
 }
 

@@ -1,5 +1,6 @@
 body {
   margin: -1% -1% -1% -1%;
+  overflow-x: hidden;
 }
 
 html {
@@ -22,6 +23,7 @@ html {
 
   @include small {
     height: 30vh;
+    width: 100%;
   }
 }
 
