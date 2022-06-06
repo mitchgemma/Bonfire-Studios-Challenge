@@ -20,6 +20,10 @@
   height: 35%;
   color: $white;
   background-size: cover;
+
+  @include small {
+    height: 70vh;
+  }
 }
 
 .navbar {
@@ -43,7 +47,7 @@
       font-size: 1.34vw;
     }
     @include small {
-      font-size: 1.7vw;
+      font-size: 3.2vw;
     }
   }
 
@@ -55,7 +59,7 @@
       font-size: 1.9vw;
     }
     @include small {
-      font-size: 2.3vw;
+      font-size: 3.5vw;
     }
   }
 
@@ -91,6 +95,11 @@
   @include medium {
     font-size: 3vw;
   }
+
+  @include small {
+    font-size: 6vw;
+    margin-top: 20%;
+  }
 }
 
 .description {
@@ -106,7 +115,9 @@
   }
 
   @include small {
-    font-size: 1.9vw;
+    font-size: 4vw;
+    width: 66%;
+    margin-top: 10%;
   }
 }
 
@@ -132,8 +143,8 @@
   }
 
   @include small {
-    padding: 1.4vw 3vw;
-    font-size: 1.8vw;
+    padding: 3.3vw 5vw;
+    font-size: 2.5vw;
   }
 }
 #checked {
@@ -149,7 +160,7 @@
   }
 
   @include small {
-    padding: 1.6vw 3vw;
-    font-size: 1.8vw;
+    padding: 3.6vw 5vw;
+    font-size: 2.5vw;
   }
 }
