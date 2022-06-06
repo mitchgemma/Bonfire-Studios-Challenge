@@ -265,6 +265,7 @@ html {
 @media (max-width: 768px) {
   .title {
     height: 300px;
+    padding-bottom: 22%;
   }
 }
 
