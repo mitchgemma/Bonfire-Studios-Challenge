@@ -74,8 +74,8 @@ html {
 
 @media (max-width: 768px) {
   .card {
-    width: 70%;
-    height: 20vh;
+    width: 55%;
+    height: 29vw;
   }
 }
 
@@ -157,7 +157,10 @@ html {
 
 @media (max-width: 768px) {
   .header-container {
-    height: 70vh;
+    height: 700px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -250,6 +253,12 @@ html {
           flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .title {
+    height: 300px;
+  }
+}
+
 .header-title {
   font-family: "Gelasio", serif;
   font-size: 2.6vw;
@@ -264,7 +273,8 @@ html {
 
 @media (max-width: 768px) {
   .header-title {
-    font-size: 35px;
+    position: relative;
+    font-size: 44px;
     margin-top: 10%;
   }
 }
@@ -275,7 +285,6 @@ html {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1vw;
-  margin-bottom: 4%;
 }
 
 @media (max-width: 1023px) {
@@ -286,10 +295,9 @@ html {
 
 @media (max-width: 768px) {
   .description {
-    font-size: 20px;
+    font-size: 19px;
     width: 66%;
     margin-top: 8%;
-    margin-bottom: 15%;
   }
 }
 
@@ -320,8 +328,8 @@ html {
 
 @media (max-width: 768px) {
   .btn-group button {
-    padding: 15px 20px;
-    font-size: 15px;
+    padding: 2.1vw 3.2vw;
+    font-size: 2.3vw;
   }
 }
 
@@ -343,8 +351,8 @@ html {
 
 @media (max-width: 768px) {
   #checked {
-    padding: 17px 20px;
-    font-size: 15px;
+    padding: 2.3vw 3.2vw;
+    font-size: 2.3vw;
   }
 }
 /*# sourceMappingURL=styles.css.map */
