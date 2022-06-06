@@ -75,9 +75,9 @@ html {
 
 @media (max-width: 768px) {
   .card {
-    width: 55%;
-    height: 29vw;
-    margin-bottom: 3%;
+    width: 75%;
+    height: 50vw;
+    margin-bottom: 5%;
   }
 }
 
@@ -90,7 +90,7 @@ html {
 
 @media (max-width: 768px) {
   .card h2 {
-    font-size: 17px;
+    font-size: 6vw;
   }
 }
 
@@ -102,7 +102,7 @@ html {
 
 @media (max-width: 768px) {
   .card h4 {
-    font-size: 9px;
+    font-size: 3vw;
   }
 }
 

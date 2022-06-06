@@ -49,9 +49,9 @@ html {
   }
 
   @include small {
-    width: 55%;
-    height: 29vw;
-    margin-bottom: 3%;
+    width: 75%;
+    height: 50vw;
+    margin-bottom: 5%;
   }
 
   h2 {
@@ -61,7 +61,7 @@ html {
     font-size: 1.8vw;
 
     @include small {
-      font-size: 17px;
+      font-size: 6vw;
     }
   }
 
@@ -71,7 +71,7 @@ html {
     font-size: 0.9vw;
 
     @include small {
-      font-size: 9px;
+      font-size: 3vw;
     }
   }
 
