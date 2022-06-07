@@ -4,7 +4,7 @@ const oddBoxes = document.querySelectorAll('.odd')
 const evenBoxes = document.querySelectorAll('.even')
 const homeAway = document.querySelectorAll('.nav-links')
 
-// iterate through buttons to add clickButton event listener to each button
+// elements to add event listeners to
 const arrayButtons = Array.from(buttons[0].children)
 const navArray = Array.from(homeAway[0].children)
 

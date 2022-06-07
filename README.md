@@ -1,5 +1,7 @@
 # Bonfire Studios Coding Challenge
 
+## View the [Deployed App](https://mitchgemma.github.io/Bonfire-Studios-Challenge/#)
+
 ## Objective
 
 Take the attached Photoshop document and turn it into a single working web page. You can build in any way that you want using HTML, JS, CSS with a few exceptions:
