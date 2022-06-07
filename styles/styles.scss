@@ -121,6 +121,7 @@
   font-family: $paragraph;
   font-weight: 400;
   font-size: 1vw;
+  margin-bottom: 2%;
 
   @include medium {
     font-size: 1.6vw;
@@ -136,7 +137,7 @@
 .btn-group button {
   font-size: 0.8vw;
   margin-top: 8%;
-  margin-bottom: -5.5%;
+  margin-bottom: -4.8%;
   color: $white;
   background-color: $gray;
   padding: 1vw 3.2vw;
@@ -163,7 +164,7 @@
 
 #checked {
   background-color: $beige;
-  padding: 1.2vw 3.2vw;
+  padding: 1.2vw 3.5vw;
   color: $subtextGray;
   font-weight: 900;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 0px;
