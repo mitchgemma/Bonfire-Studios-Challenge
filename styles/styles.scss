@@ -165,6 +165,9 @@
   @media not all and (min-resolution: 0.001dpcm) {
     @supports (-webkit-appearance: none) {
       margin-left: -2px;
+      @include medium {
+        margin-left: 0;
+      }
     }
   }
 }

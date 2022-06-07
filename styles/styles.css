@@ -355,6 +355,11 @@ html {
     .btn-group button {
       margin-left: -2px;
     }
+    @media (max-width: 1023px) {
+      .btn-group button {
+        margin-left: 0;
+      }
+    }
   }
 }
 
