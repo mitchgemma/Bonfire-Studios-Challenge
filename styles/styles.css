@@ -100,7 +100,7 @@ html {
   }
 }
 
-.card:hover {
+.card:hover .card:active {
   cursor: pointer;
   -webkit-transform: translate(0, -10px);
           transform: translate(0, -10px);
@@ -109,11 +109,11 @@ html {
           box-shadow: rgba(11, 11, 11, 0.56) 0px 2px 18px 0px;
 }
 
-.card:hover .card-btn {
+.card .card-btn {
   display: block;
 }
 
-.card:hover h2 {
+.card h2 {
   color: #e3d2bd;
   -webkit-transform: translate(0, -10px);
           transform: translate(0, -10px);
@@ -121,20 +121,12 @@ html {
   transition: all 0.5s ease;
 }
 
-.card:hover h4 {
+.card h4 {
   color: #435368;
   -webkit-transform: translate(0, -10px);
           transform: translate(0, -10px);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-}
-
-.card:active {
-  -webkit-transform: translate(0, -10px);
-          transform: translate(0, -10px);
-  border-top: 3px solid red;
-  -webkit-box-shadow: rgba(11, 11, 11, 0.56) 0px 2px 18px 0px;
-          box-shadow: rgba(11, 11, 11, 0.56) 0px 2px 18px 0px;
 }
 
 .odd {
