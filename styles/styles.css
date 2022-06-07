@@ -350,6 +350,14 @@ html {
   }
 }
 
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .btn-group button {
+      margin-left: -2px;
+    }
+  }
+}
+
 #checked {
   background-color: #fdecca;
   padding: 1.2vw 3.5vw;
