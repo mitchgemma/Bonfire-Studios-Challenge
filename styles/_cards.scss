@@ -33,7 +33,7 @@ html {
   width: 24%;
   height: 15vw;
   border-radius: 2%;
-  display: block;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -43,7 +43,6 @@ html {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   position: relative;
   transition: all 0.5s ease;
-  opacity: 1;
 
   @include small {
     width: 75%;
@@ -84,10 +83,14 @@ html {
 
     h2 {
       color: $brown;
+      transform: translate(0, -10px);
+      transition: all 0.5s ease;
     }
 
     h4 {
       color: $subtextHover;
+      transform: translate(0, -10px);
+      transition: all 0.5s ease;
     }
   }
 }
